@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "datatables.net/datatables.net-staterestore-bs5",
     "description": "The StateRestore extension for DataTables builds on the `stateSave` option within DataTable's core. This allows users to save multiple different states and reload them at any time, not just at initialisation. This is StateRestore for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
     "support": {
@@ -30,7 +30,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-staterestore": ">=null",
-        "datatables.net/datatables.net-bs5": ">=1.11.3"
+        "datatables.net/datatables.net-staterestore": ">=1.1.0",
+        "datatables.net/datatables.net-bs5": ">=1.11.5"
     }
 }
