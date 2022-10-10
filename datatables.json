@@ -1,0 +1,17 @@
+{
+    "js": [
+        "js/stateRestore.bootstrap5.js",
+        "js/stateRestore.bootstrap5.min.js",
+        "js/stateRestore.bootstrap5.min.mjs",
+        "js/stateRestore.bootstrap5.mjs"
+    ],
+    "css": [
+        "css/stateRestore.bootstrap5.css",
+        "css/stateRestore.bootstrap5.min.css"
+    ],
+    "types": [
+        "types/stateRestore.bootstrap5.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/StateRestore",
+    "last-tag": "1.1.1"
+}
