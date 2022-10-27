@@ -10,7 +10,8 @@
         "css/stateRestore.bootstrap5.min.css"
     ],
     "types": [
-        "types/stateRestore.bootstrap5.d.ts"
+        "types/stateRestore.bootstrap5.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/StateRestore",
     "last-tag": "1.1.1"
