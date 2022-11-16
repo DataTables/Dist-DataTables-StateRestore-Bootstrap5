@@ -22,7 +22,6 @@
 				require('')(root, $);
 			}
 
-
 			return factory( $, root, root.document );
 		};
 	}
