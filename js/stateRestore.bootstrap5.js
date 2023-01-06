@@ -5,7 +5,7 @@
 (function( factory ){
 	if ( typeof define === 'function' && define.amd ) {
 		// AMD
-		define( [''], function ( $ ) {
+		define( ['jquery', 'datatables.net-bs5', 'datatables.net-staterestore'], function ( $ ) {
 			return factory( $, window, document );
 		} );
 	}
@@ -18,8 +18,18 @@
 				root = window;
 			}
 
+			if ( ! $ ) {
+				$ = typeof window !== 'undefined' ? // jQuery's factory checks for a global window
+					require('jquery') :
+					require('jquery')( root );
+			}
+
 			if ( ! $.fn.dataTable ) {
-				require('')(root, $);
+				require('datatables.net-bs5')(root, $);
+			}
+
+			if ( ! $.fn.dataTable.StateRestore ) {
+				require('datatables.net-staterestore')(root, $);
 			}
 
 			return factory( $, root, root.document );

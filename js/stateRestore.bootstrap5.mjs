@@ -2,7 +2,9 @@
  * © SpryMedia Ltd - datatables.net/license
  */
 
-import DataTable from '';
+import $ from 'jquery';
+import DataTable from 'datatables.net-bs5';
+import StateRestore from 'datatables.net-staterestore';
 
 
 $.extend(true, DataTable.StateRestoreCollection.classes, {
