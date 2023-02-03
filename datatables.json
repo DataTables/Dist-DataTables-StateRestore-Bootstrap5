@@ -14,6 +14,6 @@
         "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/StateRestore",
-    "last-tag": "1.2.0",
+    "last-tag": "1.2.1",
     "last-sync": "d0deb23d52682ed89c8c141e4a5c132b3ed378ed"
 }
