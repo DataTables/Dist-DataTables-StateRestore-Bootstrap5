@@ -2,9 +2,12 @@
  * © SpryMedia Ltd - datatables.net/license
  */
 
-import $ from 'jquery';
+import jQuery from 'jquery';
 import DataTable from 'datatables.net-bs5';
 import StateRestore from 'datatables.net-staterestore';
+
+// Allow reassignment of the $ variable
+let $ = jQuery;
 
 $.extend(true, DataTable.StateRestoreCollection.classes, {
     checkBox: 'dtsr-check-box form-check-input',
