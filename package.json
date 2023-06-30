@@ -4,7 +4,7 @@
     "main": "js/stateRestore.bootstrap5.js",
     "module": "js/stateRestore.bootstrap5.mjs",
     "style": "css/stateRestore.bootstrap5.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/stateRestore.bootstrap5.d.ts",
     "version": "1.2.2",
     "files": [
         "css/**/*.css",
@@ -14,11 +14,11 @@
     ],
     "keywords": [
         "StateRestore",
-        "stateSave",
-        "state",
-        "reload",
+ "stateSave",
+ "state",
+"reload",
         "Bootstrap",
-        "Bootstrap5",
+ "Bootstrap5",
         "Datatables",
         "jQuery",
         "table",
@@ -26,8 +26,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": ">=1.1.1",
-        "datatables.net-bs5": ">=1.12.1",
+        "datatables.net-staterestore": ">=1.2.2",
+        "datatables.net-bs5": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
