@@ -186,7 +186,7 @@ html.dark div.dtsr-confirmation,
 html.dark div.dtsr-creation,
 html[data-bs-theme=dark] div.dtsr-confirmation,
 html[data-bs-theme=dark] div.dtsr-creation {
-  background-color: #212529;
+  background-color: rgb(33, 37, 41);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 html.dark div.dtsr-confirmation button,
@@ -195,13 +195,13 @@ html[data-bs-theme=dark] div.dtsr-confirmation button,
 html[data-bs-theme=dark] div.dtsr-creation button {
   color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.175);
-  background-color: #2f3438;
+  background-color: rgb(47, 52, 56);
 }
 html.dark div.dtsr-confirmation button:hover,
 html.dark div.dtsr-creation button:hover,
 html[data-bs-theme=dark] div.dtsr-confirmation button:hover,
 html[data-bs-theme=dark] div.dtsr-creation button:hover {
-  background-color: #404549;
+  background-color: rgb(64, 69, 73);
 }
 
 span.dtsr-check-label {
