@@ -1,6 +1,6 @@
 # StateRestore for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)
 
-This package contains a built distribution of the [StateRestore extension](https://datatables.net/extensions/staterestore) for [DataTables](https://datatables.net/) with styling for [Bootstrap5](https://getbootstrap.com/).
+This is the distribution package for the [StateRestore extension](https://datatables.net/extensions/staterestore) for [DataTables](https://datatables.net/) with styling for [Bootstrap5](https://getbootstrap.com/).
 
 The StateRestore extension for DataTables builds on the `stateSave` option within DataTable's core. This allows users to save multiple different states and reload them at any time, not just at initialisation.
 
@@ -9,42 +9,37 @@ The StateRestore extension for DataTables builds on the `stateSave` option withi
 
 ### Browser
 
-For inclusion of this library using a standard `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
+To use DataTables with a simple `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
 
 ### npm
 
+For installation via npm, yarn and other similar package managers, install this package with your package manager - e.g.:
+
 ```
+npm install datatables.net-bs5
 npm install datatables.net-staterestore-bs5
 ```
 
-ES3 Syntax
-```
-var $ = require( 'jquery' );
-var dt = require( 'datatables.net-staterestore-bs5' )( window, $ );
-```
+Then, to load and initialise the software in your code use:
 
-ES6 Syntax
 ```
+import DataTable from 'datatables.net-bs5';
 import 'datatables.net-staterestore-bs5'
-```
 
-### bower
-
+new DataTable('#myTable', {
+    // initalisation options
+});
 ```
-bower install --save datatables.net-staterestore-bs5
-```
-
 
 
 ## Documentation
 
-Full documentation and examples for StateRestore can be found [on the website](https://datatables.net/extensions/staterestore).
+Full documentation and examples for StateRestore can be found [on the DataTables website](https://datatables.net/extensions/staterestore).
 
 
 ## Bug / Support
 
 Support for DataTables is available through the [DataTables forums](//datatables.net/forums) and [commercial support options](//datatables.net/support) are available.
-
 
 ### Contributing
 
