@@ -25,12 +25,10 @@
         "Bootstrap",
         "Bootstrap5",
         "Datatables",
-        "jQuery",
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-staterestore": "1.4.3",
-        "datatables.net/datatables.net-bs5": "1.11 - 2",
-        "datatables.net/jquery": ">=1.7"
+        "datatables.net/datatables.net-staterestore": "2.0.0",
+        "datatables.net/datatables.net-bs5": "^3"
     }
 }
