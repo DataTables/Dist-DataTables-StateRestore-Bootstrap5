@@ -1,4 +1,4 @@
-/*! StateRestore Bootstrap 5 styling 2.0.0 for DataTables
+/*! StateRestore Bootstrap 5 styling 2.0.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
